@@ -1,9 +1,7 @@
 import * as React from "react";
-import { Provider } from "react-redux";
+import {Provider} from "./src/store";
 
-import { store } from "./src/store";
-
-export const wrapRootElement = ({ element }) =>
-    <Provider store={store} >
+export const wrapRootElement = ({ element }: any) =>
+    <Provider >
       {element}
     </Provider>;

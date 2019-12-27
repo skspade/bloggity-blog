@@ -51,9 +51,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "5.2.1",
-    "react-redux": "^7.0.3",
     "react-scripts": "^3.0.1",
-    "redux-devtools-extension": "^2.13.8",
     "semantic-ui-react": "^0.87.1",
     "slash": "3.0.0",
     "ts-loader": "^6.0.1"
@@ -74,7 +72,6 @@
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
     "@types/react-helmet": "5.0.8",
-    "@types/react-redux": "^7.0.9",
     "@types/react-test-renderer": "^16.8.1",
     "@types/semantic-ui": "^2.2.7",
     "@types/storybook-readme": "^5.0.4",

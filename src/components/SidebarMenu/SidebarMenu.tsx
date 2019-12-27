@@ -1,24 +1,37 @@
 import * as React from "react";
-import { connect } from "react-redux";
-import { Dispatch } from "redux";
 import { GatsbyLinkProps } from "gatsby-link";
-import { StoreState } from "../../store";
 import { MenuProps, MenuItem } from "../Menu";
 import { Menu, Icon, Sidebar } from "semantic-ui-react";
 import { SemanticICONS } from "semantic-ui-react";
+import {useContext} from "react";
+import {Context} from "../../store";
 
 interface SidebarMenuProps extends MenuProps {
   visible?: boolean;
-  dispatch?: Dispatch<any>;
   Link: React.ComponentClass<GatsbyLinkProps<any>>;
 }
 
-export const SidebarMenu = ({ items, pathname, Link, visible }: SidebarMenuProps) => {
-  const isActive = (item: MenuItem) => (item.exact) ? pathname === item.path : pathname.startsWith(item.path);
-  const activeItem = items.find((item: MenuItem) => isActive(item)) || {} as MenuItem;
+export const SidebarMenu = ({
+  items,
+  pathname,
+  Link,
+}: SidebarMenuProps) => {
+  const isActive = (item: MenuItem) =>
+    item.exact ? pathname === item.path : pathname.startsWith(item.path);
+  const activeItem =
+    items.find((item: MenuItem) => isActive(item)) || ({} as MenuItem);
+  const {state} = useContext(Context);
+
   return (
-    <Sidebar as={Menu} animation="slide along" width="thin"
-      visible={visible} icon="labeled" vertical inverted={activeItem.inverted}>
+    <Sidebar
+      as={Menu}
+      animation="slide along"
+      width="thin"
+      visible={state.isSidebarVisible}
+      icon="labeled"
+      vertical
+      inverted={activeItem.inverted}
+    >
       {items.map((item) => {
         const active = isActive(item);
         return (
@@ -32,8 +45,4 @@ export const SidebarMenu = ({ items, pathname, Link, visible }: SidebarMenuProps
   );
 };
 
-const mapStateToProps = (state: StoreState) => ({
-  visible: state.isSidebarVisible,
-});
-
-export default connect<any, void, SidebarMenuProps>(mapStateToProps)(SidebarMenu);
+export default SidebarMenu;
