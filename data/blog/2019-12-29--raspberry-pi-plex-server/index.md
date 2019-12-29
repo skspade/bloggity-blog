@@ -9,14 +9,28 @@ tags:
 image: usb-technology-green-microchip-57007.jpg
 draft: false
 ---
-
 # Plex Raspberry Pi Server
 
 Created: Dec 28, 2019 9:14 PM
 
-# Installing Headless Raspian
+# What you'll need
 
-# Setting up FileBot
+- [ ]  Raspberry Pi (3 or higher)
+- [ ]  SD Card
+- [ ]  Storage for media (Hard Drive, USB stick, NAS)
+- [ ]  Ethernet Cable (To hook up the Pi to your router)
+
+# Install Headless Raspbian
+
+Blah blah blah DONE
+
+# Install Plex Server
+
+Yadda yadda yadda
+
+# File and Folder structure
+
+## Setting up FileBot
 
 Install filebot with one command!
 
