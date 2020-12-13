@@ -8882,13 +8882,6 @@ gatsby-page-utils@^0.0.35:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-google-analytics@^2.0.20:
-  version "2.1.31"
-  resolved "https://cngholdings.jfrog.io/cngholdings/api/npm/npm-virtual/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.1.31.tgz#d53d20aa26321f43fa8320c169db0316320f98f8"
-  integrity sha1-1T0gqiYyH0P6gyDBadsDFjIPmPg=
-  dependencies:
-    "@babel/runtime" "^7.7.6"
-
 gatsby-plugin-manifest@^2.2.30:
   version "2.2.33"
   resolved "https://cngholdings.jfrog.io/cngholdings/api/npm/npm-virtual/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.33.tgz#4c9dafaffef8df452f863bc0af56f36c99b15388"
@@ -10594,9 +10587,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://cngholdings.jfrog.io/cngholdings/api/npm/npm-virtual/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 ink-spinner@^3.0.1:
   version "3.0.1"
