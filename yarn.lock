@@ -8882,13 +8882,6 @@ gatsby-page-utils@^0.0.35:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-google-analytics@^2.0.20:
-  version "2.1.31"
-  resolved "https://cngholdings.jfrog.io/cngholdings/api/npm/npm-virtual/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.1.31.tgz#d53d20aa26321f43fa8320c169db0316320f98f8"
-  integrity sha1-1T0gqiYyH0P6gyDBadsDFjIPmPg=
-  dependencies:
-    "@babel/runtime" "^7.7.6"
-
 gatsby-plugin-manifest@^2.2.30:
   version "2.2.33"
   resolved "https://cngholdings.jfrog.io/cngholdings/api/npm/npm-virtual/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.33.tgz#4c9dafaffef8df452f863bc0af56f36c99b15388"
@@ -19668,9 +19661,9 @@ typescript@^3.5.0:
   integrity sha1-s2hAZooWRYpwJbnqv60Rtmq4XGk=
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://cngholdings.jfrog.io/cngholdings/api/npm/npm-virtual/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha1-dScXi4L2pioPJD0flP0w4+PCEJg=
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-js@3.4.x:
   version "3.4.10"
